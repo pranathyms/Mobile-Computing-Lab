@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/hospital"
+        android:text="HOSPITAL REGISTRATION FORM\n"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name1"
+            android:text="Name: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/patientname1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:text="Address: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/addressval1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age1"
+            android:text="Age: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/ageval1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Date of Birth: "
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/dobval1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender"
+            android:text="Gender: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/genderval1" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/maritalstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Marital Status: "
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/maritalstats1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:text="Phone number: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/number1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_time"
+            android:text="Registration time: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addiction"
+            android:text="Addiction: "
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add1"/>
+    </TableRow>
+</TableLayout>
